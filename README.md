@@ -1,7 +1,7 @@
 # infoVPCElasticPublicIps
 
 
-![Cost](/assets/aws-costs.jpp)
+![Cost](/assets/aws-costs.jpg)
 
  We want reduce costs in our AWS account. Normally in DEVs accounts we have some IP Adress that users forget to delete and it doesn't remove automatically when you destroy an EC2 Instance (It depends).
 
