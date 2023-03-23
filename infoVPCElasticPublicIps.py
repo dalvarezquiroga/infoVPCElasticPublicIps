@@ -44,7 +44,7 @@ def handler():
                     unused_ips_counts.append({address['PublicIp']})
                     #### WARNING!! IF YOU UNCOMMENT THE FOLLOWING LINES IT WILL REMOVE THE IPS AUTOMATICALLY ####
                     #ec2conn.release_address(AllocationId=address["AllocationId"])  
-                    #print(f"Example message --> Deleted unused Elastic IP {address['PublicIp']} in region {region_name}")
+                    #print(f"Deleted unused Elastic IP {address['PublicIp']} in region {region_name}")
         except Exception as error:
             print(f"No access to region {region_name}: {error}")
 
